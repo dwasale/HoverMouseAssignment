@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e427ed88-9206-4f49-bc5f-5998d704dad1" name="Changes" comment="Added dependency for webdriver commit">
+    <list default="true" id="e427ed88-9206-4f49-bc5f-5998d704dad1" name="Changes" comment="Added new class commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rudra/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rudra/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/rudra/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rudra/DriverManager.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.TestSuit.toVerifyMouseIsHoveringOverComputerMenuAndSubMenu">
     <configuration name="LoadProp.readKeys" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HoverAssignment" />
       <extension name="coverage">
@@ -76,8 +77,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSuit.toVerifyMouseIsHoveringOverComputerMenuAndSubMenu" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HoverAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rudra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rudra" />
+      <option name="MAIN_CLASS_NAME" value="com.rudra.TestSuit" />
+      <option name="METHOD_NAME" value="toVerifyMouseIsHoveringOverComputerMenuAndSubMenu" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSuit.toVerifyMouseIsHoveringOverComputerMenuAndSubMenu" />
         <item itemvalue="TestNG.LoadProp.readKeys" />
       </list>
     </recent_temporary>
@@ -105,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669756896938</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added new class commit">
+      <created>1669758721917</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669758721917</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +149,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inital commit" />
     <MESSAGE value="Added dependency for webdriver commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added dependency for webdriver commit" />
+    <MESSAGE value="Added new class commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new class commit" />
   </component>
 </project>

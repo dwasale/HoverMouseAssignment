@@ -3,8 +3,6 @@ package com.rudra;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 
 import java.time.Duration;
 
@@ -12,7 +10,6 @@ public class DriverManager extends Utils{
 
     String browserName = LoadProp.getProperty("Browser");
 
-    @BeforeMethod
     public void openBrowser(){
         if (browserName.equalsIgnoreCase("Chrome")){
             System.setProperty("webdriver.chrome.driver","src/test/Drivers/chromedriver");
@@ -29,7 +26,6 @@ public class DriverManager extends Utils{
         driver.manage().window().maximize();
     }
 
-    @AfterMethod
     public void closeBrowser(){
         driver.quit();
     }

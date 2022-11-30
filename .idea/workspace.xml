@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e427ed88-9206-4f49-bc5f-5998d704dad1" name="Changes" comment="Added new class commit">
+    <list default="true" id="e427ed88-9206-4f49-bc5f-5998d704dad1" name="Changes" comment="Added new class and used Assert selenium commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rudra/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rudra/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/rudra/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rudra/DriverManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rudra/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rudra/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestConfig/TestData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestConfig/TestData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rudra/TestSuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rudra/TestSuit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,18 +36,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/dwasale/Desktop/SoftwareTestingWithJava/HoverAssignment/src/test/Drivers",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "configurable.group.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dwasale/Desktop/SoftwareTestingWithJava/HoverAssignment/src/test/Drivers&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.rudra" />
@@ -58,7 +59,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestSuit.toVerifyMouseIsHoveringOverComputerMenuAndSubMenu">
+  <component name="RunManager" selected="TestNG.TestSuit.toVerifyWhileSearchingCorrectItemsAreShowing">
     <configuration name="LoadProp.readKeys" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HoverAssignment" />
       <extension name="coverage">
@@ -95,8 +96,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSuit.toVerifyWhileSearchingCorrectItemsAreShowing" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HoverAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rudra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rudra" />
+      <option name="MAIN_CLASS_NAME" value="com.rudra.TestSuit" />
+      <option name="METHOD_NAME" value="toVerifyWhileSearchingCorrectItemsAreShowing" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSuit.toVerifyWhileSearchingCorrectItemsAreShowing" />
         <item itemvalue="TestNG.TestSuit.toVerifyMouseIsHoveringOverComputerMenuAndSubMenu" />
         <item itemvalue="TestNG.LoadProp.readKeys" />
       </list>
@@ -132,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669758721917</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added new class and used Assert selenium commit">
+      <created>1669764648942</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669764648942</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +177,7 @@
     <MESSAGE value="Inital commit" />
     <MESSAGE value="Added dependency for webdriver commit" />
     <MESSAGE value="Added new class commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new class commit" />
+    <MESSAGE value="Added new class and used Assert selenium commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new class and used Assert selenium commit" />
   </component>
 </project>

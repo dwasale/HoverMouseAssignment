@@ -9,6 +9,10 @@ import org.testng.Assert;
 public class HomePage extends Utils{
     private By _computerMenu = By.linkText("Computers");
     private By _desktopsSubMenu = By.linkText("Desktops");
+    private By _searchTextBox = By.id("small-searchterms");
+    private String searchItem = LoadProp.getProperty("Text");
+
+    private By _submitSearch = By.xpath("//button[@class='button-1 search-box-button']");
     public void toHoverMouseOverComputerMenuAndDesktopsSubMenu(){
         //Object for actions methods that performs click and hold at the location of elements
         Actions actions = new Actions(driver);
@@ -32,16 +36,26 @@ public class HomePage extends Utils{
         Assert.assertNotEquals(computerTextColor,afterHoverHexCode,"Expected color matched");
         //Getting location of the given element for desktops submenu
         WebElement desktopsSubMenuElement = driver.findElement(_desktopsSubMenu);
+        //Getting the background color of desktops submneu
         String desktopsSubMenuColor = desktopsSubMenuElement.getCssValue("background-color");
+        //Getting the hexCode of that color
         String hexCodeDesktops = Color.fromString(desktopsSubMenuColor).asHex();
         System.out.println("Desktops submenu background color before hovering: " + desktopsSubMenuColor);
         System.out.println("HexCode: " + hexCodeDesktops);
         //Hover mouse over desktops submenu
         actions.moveToElement(desktopsSubMenuElement).perform();
+        //Getting the background color of desktops submenu after hovering on it
         String afterHoveringDesktopsSubMenu = desktopsSubMenuElement.getCssValue("color");
+        //Converting the color into hexCode
         String hexCodeAfterHovering = Color.fromString(afterHoveringDesktopsSubMenu).asHex();
         System.out.println("Desktops submenu background color after hovering: " + afterHoveringDesktopsSubMenu);
         System.out.println("HexCode: " + hexCodeAfterHovering);
+        //Checking the color doesn't match after and before hovering on it
         Assert.assertNotEquals(desktopsSubMenuColor,afterHoveringDesktopsSubMenu,"Background color matched");
+    }
+
+    public void toSearchAnyItem(){
+        sendUserInput(_searchTextBox,searchItem);
+        clickOnElement(_submitSearch);
     }
 }
